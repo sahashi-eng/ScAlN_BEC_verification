@@ -16,9 +16,11 @@ The repository is expected to contain the following files:
 ├── README.md
 ├── evaluate_bec.py
 ├── test_data.xyz
+├── ScAlN_MACE_model.model
 └── ScAlN_BEC_model.pth
 ```
 
+- `ScAlN_MACE_model.model`: fine-tuned MACE interatomic potential used in the ScAlN molecular-dynamics simulations.
 - `evaluate_bec.py`: evaluation script.
 - `test_split.xyz`: reference structures and per-atom BEC tensors.
 - `finetuned_bec_model.pth`: fine-tuned TorchScript Equivar model.
